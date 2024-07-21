@@ -18,7 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class NewPage {
+public class Decathlon {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
