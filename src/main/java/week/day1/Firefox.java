@@ -20,9 +20,6 @@ public class Firefox {
 		char logo='m';
 		System.out.println("Char logo: " +logo);
 		
-		
-		
-		
 
 	}
 

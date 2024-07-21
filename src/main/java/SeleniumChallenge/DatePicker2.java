@@ -51,33 +51,46 @@ public class DatePicker2 {
 		
 		//Wait Dropdown and click the first city
 		//driver.findElement(By.xpath("//label[@for='airport-destination']")).click();
-		driver.findElement(By.xpath("//label[@for='airport-destination']")).sendKeys("istanbul");
-		List<WebElement> toDestinations = driver.findElements(By.xpath("//ul[@id='DestinationAirlist']/li"));
+	WebElement destination=	driver.findElement(By.xpath("//label[@for='airport-destination']"));
+	destination.sendKeys("istanbul");
+	destination.sendKeys(Keys.ENTER);
+		//List<WebElement> toDestinations = driver.findElements(By.xpath("//ul[@id='DestinationAirlist']/li"));
 		//WebDriverWait wait1=new WebDriverWait(driver,Duration.ofSeconds(10));
 		//wait1.until(ExpectedConditions.visibilityOfAllElements(toDestinations));
 		
-		int destinationsCount=toDestinations.size();
+		//int destinationsCount=toDestinations.size();
 		
-		  System.out.println(destinationsCount);
+		//  System.out.println(destinationsCount);
+		  
+		
 		  
 		//  toDestinations.get(destinationsCount-1).click();
 		  
 		  
-		  if (destinationsCount > 0) {
+		//  if (destinationsCount > 0) {
+		//	  toDestinations.get(destinationsCount-1).sendKeys(Keys.Enter);
+			//  toDestinations.get(destinationsCount - 1).click();
               // Get the last destination element
-              WebElement lastDestination = toDestinations.get(destinationsCount - 1);
-
-              // Scroll the last destination element into view
-              ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", lastDestination);
-
-              // Add a short wait to ensure the element is ready to be clicked
-              Thread.sleep(1000);
-              ((JavascriptExecutor) driver).executeScript("arguments[0].click();", lastDestination);
+            //  WebElement lastDestination = toDestinations.get(destinationsCount - 1);
+			 // WebElement lastDestination = toDestinations.get(0);
+			//  wait.until(ExpectedConditions.elementToBeClickable(lastDestination)).click();
+	        //    System.out.println("Clicked on the first destination.");
+			  
+             // lastDestination.click();
+				  // Scroll the last destination element into view 
+      //        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", lastDestination);
+				  
+				  // Add a short wait to ensure the element is ready to be clicked
+				//  Thread.sleep(1000); 
+				//  ((JavascriptExecutor)driver).executeScript("arguments[0].click();", lastDestination);
+				 
+             // lastDestination.click();
+            //  Thread.sleep(2000);
               // Click the last destination element
              // lastDestination.click();
-          } else {
-              System.out.println("No destinations found.");
-          }
+      //    } else {
+     //         System.out.println("No destinations found.");
+     //     }
 
 			/*
 			 * Actions action=new Actions(driver);

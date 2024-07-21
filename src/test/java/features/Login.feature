@@ -6,7 +6,7 @@ Feature: Login to Leaptaps
 
 @Smoke
 Scenario: Login positive flow
-When Enter Username as DemoSalesManager
+When Enter Username as 'DemoSalesManager'
 And Enter Password as <password>
 And Click on Login
 Then Verify HomePage is displayed

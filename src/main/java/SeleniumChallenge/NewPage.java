@@ -26,7 +26,7 @@ public class NewPage {
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
 		options.addArguments("--disable-notifications");
-		options.addArguments("disable-popup-blocking");
+		options.addArguments("--disable-popup-blocking");
 		ChromeDriver driver=new ChromeDriver(options);
 		driver.get("https://www.decathlon.in/");
 		driver.manage().window().maximize();

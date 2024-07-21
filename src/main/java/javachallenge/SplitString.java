@@ -17,8 +17,8 @@ public class SplitString {
 		for (int i = 0; i < split.length; i++) {
 			System.out.println(split[i]);
 			System.out.println(split[i].substring(0, 4));
-			
-			
+			System.out.println(split[i].substring(0, 2));
+			System.out.println(split[i].substring(4));
 	}
 		
 	}

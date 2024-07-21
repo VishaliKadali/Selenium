@@ -18,7 +18,7 @@ public class CountOfCharacter {
 			}
 		}
 
-		System.out.println(count);
+		System.out.println("Character " +ch+ "is Present" +count+ "times");
 
 	}
 }

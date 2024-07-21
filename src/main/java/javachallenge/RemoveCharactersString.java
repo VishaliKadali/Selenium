@@ -16,12 +16,12 @@ public class RemoveCharactersString {
 		
 		System.out.println(a+b);
 		
-		String c="33";
+		//String c="33";
 		
 		
-		String[] split=c.split("");
+		//String[] split=c.split("");
 		
-		System.out.println();
+		//System.out.println(split);
 	}
 
 }

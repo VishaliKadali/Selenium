@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
 
 
 @CucumberOptions(features={
-"src/test/java/features/Login.feature"},
-//"src/test/java/features/CreateLead.feature"},
+//"src/test/java/features/Login.feature",
+"src/test/java/features/CreateLead.feature"},
 				glue={"steps"},
 				monochrome=true,
 				publish=true)

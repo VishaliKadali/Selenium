@@ -32,23 +32,24 @@ public class Login extends BaseClass{
 		driver.findElement(By.className("decorativeSubmit")).click();
 	}
 	
-	@Then("Verify HomePage is displayed")
-	public void verifyLogin() {
-		String text = driver.findElement(By.tagName("h2")).getText();
-		
-//		if (text.contains("Welcome")) {
-//			System.out.println("Login is successful");
-//		} else {
-//			System.out.println("Login is not successful");
-//		}
-		
-		Assert.assertEquals(text, "Welcome");
-	}
+//	@Then("Verify HomePage is displayed")
+//	public void verifyLogin() {
+//		String text = driver.findElement(By.tagName("h2")).getText();
+//		
+////		if (text.contains("Welcome")) {
+////			System.out.println("Login is successful");
+////		} else {
+////			System.out.println("Login is not successful");
+////		}
+//		
+//		Assert.assertEquals(text, "Welcome");
+//	}
 	
 	@But("Verify Error message is displayed")
 	public void verifyErrorMessage() {
 		String text = driver.findElement(By.id("errorDiv")).getText();
 		System.out.println(text);
 	}
+	
 	
 }

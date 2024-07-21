@@ -22,7 +22,7 @@ public class ShadowDom {
 		Shadow dom=new Shadow(driver);
 		String text=dom.findElementByXPath("//span[@id='time-accessed']").getText();
 		System.out.println(text);
-		driver.close();
+		//driver.close();
 	}
 
 }
