@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="week5.testngAttributes.LearnDependsOnMethods">
+      <class name="runner.Runner">
         <methods>
-          <include name="createLead"/>
-          <include name="editLead"/>
-          <include name="deleteLead"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- week5.testngAttributes.LearnDependsOnMethods -->
+      </class> <!-- runner.Runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
