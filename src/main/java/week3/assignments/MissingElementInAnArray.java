@@ -9,7 +9,7 @@ public class MissingElementInAnArray {
 		int count=1;
 		for(int i=0;i<=a.length-1;i++) {
 			
-			if(a[i]!=i+count) {
+			while(a[i]!=i+count) {
 				
 				System.out.println(i+count);
 				count++;
