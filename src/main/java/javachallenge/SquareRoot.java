@@ -1,3 +1,4 @@
+
 package javachallenge;
 
 import java.util.Scanner;

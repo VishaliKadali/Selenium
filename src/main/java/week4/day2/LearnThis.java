@@ -17,3 +17,5 @@ String comName;
 	}
 
 }
+//The this keyword in Java refers to the current object—the instance of the class that is currently being used. 
+//It is used to differentiate between class variables (also known as instance variables) and method parameters or local variables that may have the same name.
