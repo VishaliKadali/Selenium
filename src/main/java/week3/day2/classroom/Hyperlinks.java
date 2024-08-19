@@ -34,7 +34,9 @@ public class Hyperlinks {
 		// allLinks.size();
 
 		System.out.println(allLinks.size());
-
+		
+		//To get the second link
+		System.out.println(allLinks.get(1));
 		driver.close();
 	}
 
