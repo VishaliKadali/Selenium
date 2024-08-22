@@ -15,7 +15,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass extends AbstractTestNGCucumberTests{
 
-	public static RemoteWebDriver driver;
+	public static ChromeDriver driver;
+	
 	@BeforeMethod
 	public void preCondition() {
 		

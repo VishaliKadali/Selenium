@@ -11,7 +11,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features={
 //"src/test/java/features/Login.feature",
 "src/test/java/features/CreateLead.feature"},
-				glue={"steps"},
+				glue={"steps", "hooks"},
 				monochrome=true,
 				publish=true)
 //				tags="not @sanity",

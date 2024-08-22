@@ -37,10 +37,10 @@ public class CreateLead extends BaseClass{
 		driver.findElement(By.xpath("(//input[@id='createLeadForm_lastName'])")).sendKeys(lastName);
 	}
 	
-	@And("Click on Create Leads button")
-		public void clickCreateLead() {
-			driver.findElement(By.xpath("(//input[@value='Create Lead'])")).click();
-	}
+	/*
+	 * @And("Click on Create Leads button") public void clickCreateLead() {
+	 * driver.findElement(By.xpath("(//input[@value='Create Lead'])")).click(); }
+	 */
 	
 		
 	@Then("View Lead Page should be displayed")
