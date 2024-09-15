@@ -1,3 +1,4 @@
+runner\Runner.class
 steps\CreateLead.class
 steps\Login.class
 hooks\Hooks.class

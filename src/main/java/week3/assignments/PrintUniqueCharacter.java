@@ -22,10 +22,14 @@ public class PrintUniqueCharacter {
 			set.add(uniqueChar);
 		}
 		
-		for(char c:set) {
-			System.out.println(c+ " ");
+		//System.out.println(set);
+		
+		 for(char c:set) 
+		{ 
+		System.out.println(c+ " ");
 		}
-
+	
+		 
 	}
 
 }
