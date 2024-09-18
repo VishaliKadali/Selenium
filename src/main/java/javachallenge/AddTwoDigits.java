@@ -3,7 +3,7 @@ package javachallenge;
 public class AddTwoDigits {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// method implementation
 
 			int a = 33;
 			int b =	a/10;
