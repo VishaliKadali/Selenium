@@ -7,7 +7,7 @@ public class PrimeNumbersFibnocci {
 		int firstnum = 0, secnum = 1, sum;
 		//boolean bPrime = true;
 
-		for (int i = 2; i <= 25; i++) {
+		for (int i = 2; i <= 10; i++) {
 
 			System.out.println(firstnum);
 
