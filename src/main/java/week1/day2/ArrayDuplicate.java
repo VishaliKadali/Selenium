@@ -15,7 +15,7 @@ public class ArrayDuplicate {
 
 		Arrays.sort(array);
 
-		for (int i = 0; i <= len - 1; i++) {
+		for (int i = 0; i <= array.length-1; i++) {
 
 			// System.out.println("Array after sorting : " +array[i]);
 
@@ -34,7 +34,7 @@ public class ArrayDuplicate {
 		for (int i = 0; i < array.length - 1; i++) {
 
 			if (array[i] == array[i + 1]) {
-				System.out.println("Duplicates are" + array[i]);
+				System.out.println("Duplicates are:" + array[i]);
 			}
 		}
 

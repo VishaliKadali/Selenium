@@ -35,7 +35,7 @@ public class NumberOfOccurances {
         Set<Entry<Integer, Integer>> entrySet = map.entrySet();
         int maxOccurrence = 0;
         Integer maxNumber = 0;
-        for (Entry<Integer, Integer> eachEntry : entrySet) {
+        for (Map.Entry<Integer, Integer> eachEntry : map.entrySet()) {
             if (eachEntry.getValue() > maxOccurrence) {
                 maxNumber = eachEntry.getKey();
                 maxOccurrence = eachEntry.getValue();

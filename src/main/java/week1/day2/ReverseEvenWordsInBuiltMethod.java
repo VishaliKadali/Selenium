@@ -1,6 +1,6 @@
 package week1.day2;
 
-public class ReverseEvenWords {
+public class ReverseEvenWordsInBuiltMethod {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

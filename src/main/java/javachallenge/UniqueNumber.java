@@ -23,9 +23,9 @@ public class UniqueNumber {
 				if(num[i]==num[j]) {
 					
 					System.out.println( "Duplicate Elements: " +num[i]);
-				
+					break;
 				}
-				break;
+				
 			}
 		}
 	}

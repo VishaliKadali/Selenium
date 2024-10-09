@@ -17,10 +17,10 @@ public class PrintHashMapvalues {
 	//	hmap.remove(3);
 	//	System.out.println(hmap);
 		
-		Set<Entry<Integer, String>> entrySet = hmap.entrySet();
+		//Set<Entry<Integer, String>> entrySet = hmap.entrySet();
 		
 		//System.out.println(entrySet);
-		for (Entry<Integer, String> entry : entrySet) {
+		for (Map.Entry<Integer, String> entry : hmap.entrySet()) {
 			System.out.println(entry);
 			
 			System.out.println("Value is "+entry.getValue());

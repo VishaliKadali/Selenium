@@ -16,6 +16,7 @@ public class Anagram {
 		char[] charArray1=str1.toCharArray(); //h,e,l,l,o
 		char[] charArray2=str2.toCharArray();	//o,h,e,l,l
 		
+		//Sort the array
 		Arrays.sort(charArray1);
 		Arrays.sort(charArray2);
 		

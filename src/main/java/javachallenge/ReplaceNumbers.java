@@ -1,6 +1,10 @@
 package javachallenge;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class ReplaceNumbers {
@@ -23,7 +27,10 @@ public class ReplaceNumbers {
                 numbers.add(Integer.toString(i));
             }
         }
-
+        // Convert the Set to a List
+        List<String> sortedNumbers = new ArrayList<>(numbers);
+        
+        Collections.sort(sortedNumbers);
         // Print the numbers and their replacements using an enhanced for loop
         for (String number : numbers) {
             System.out.println(number + " ");
